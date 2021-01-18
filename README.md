@@ -4,6 +4,10 @@ FiveM Logs system
 # Simple Configuration
 dl me !
 
-# Join our Discord
+# Join our Discord to get help in understanding the development
 
 https://discord.gg/ss4H3VKAZ4
+
+# Join our discord to play roleplay
+
+https://discord.com/invite/alphav
