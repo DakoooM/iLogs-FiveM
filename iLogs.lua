@@ -25,6 +25,11 @@ local function LogsFunct(Color, Description, Webhook)
 	PerformHttpRequest(Webhook, function() end, 'POST', json.encode({username = nil, embeds = Content}), { ['Content-Type'] = 'application/json' })
 end
 
+RegisterServerEvent("iLogs:events")
+AddEventHandler("iLogs:events", function(Color, Description, Webhook)
+    LogsFunct(Color, Description, Webhook)
+end)
+
 AddEventHandler("playerConnecting", function ()
 	local identifier
 	local NamePlayer = GetPlayerName(source)
