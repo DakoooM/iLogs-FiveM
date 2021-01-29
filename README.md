@@ -6,7 +6,7 @@ dl me !
 
 # Join our Discord to get help in understanding the development
 
-https://discord.gg/ss4H3VKAZ4
+https://discord.gg/dakom
 
 # Join our discord to play roleplay
 
