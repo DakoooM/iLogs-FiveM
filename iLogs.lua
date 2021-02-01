@@ -67,5 +67,5 @@ end)
 
 AddEventHandler('onResourceStart', function (resourceName)
 	Wait(50)
-    LogsFunct(3066993,"**" ..resourceName.. "** a été **Lancer** par ", iLogs.ResourceStart)
+    LogsFunct(3066993,"**" ..resourceName.. "** a été **Lancer** ", iLogs.ResourceStart)
 end)
