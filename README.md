@@ -4,10 +4,9 @@ FiveM Logs system
 # Simple Configuration
 dl me !
 
-# Join our Discord to get help in understanding the development
+I'm 🇫🇷🇪🇳🇨🇭 & I have a discord for development help, examples of scripts ... are available
 
-https://discord.gg/dakom
+[Discord Support/Release](https://discord.gg/EBfXQ94ewu)
 
-# Join our discord to play roleplay
 
-https://discord.com/invite/alphav
+[Discord Shop FiveM](https://discord.gg/mUmeeUsFcU)
