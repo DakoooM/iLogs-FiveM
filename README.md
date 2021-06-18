@@ -1,8 +1,7 @@
 # iLogs-FiveM
 FiveM Simple System Logs
 
-# Simple Configuration
-dl me !
+## Simple Configuration
 
 I'm 🇫🇷🇪🇳🇨🇭 & I have a discord for development help, examples of scripts ... are available
 
