@@ -1,5 +1,5 @@
 # iLogs-FiveM
-FiveM Logs system
+FiveM Simple System Logs
 
 # Simple Configuration
 dl me !
