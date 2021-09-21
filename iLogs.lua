@@ -1,13 +1,12 @@
-local function GetTime()
+local function getComputerTime()
 	local date = os.date('*t')
 	if date.day < 10 then date.day = '0' .. tostring(date.day) end
 	if date.month < 10 then date.month = '0' .. tostring(date.month) end
 	if date.hour < 10 then date.hour = '0' .. tostring(date.hour) end
 	if date.min < 10 then date.min = '0' .. tostring(date.min) end
 	if date.sec < 10 then date.sec = '0' .. tostring(date.sec) end
-
-	local date = date.day .. "/" .. date.month .. "/" .. date.year .. " - " .. date.hour .. " hour " .. date.min .. " min " .. date.sec .. " seconds"
-	return date
+	
+	return date.day .. "/" .. date.month .. "/" .. date.year .. " - " .. date.hour .. " hour " .. date.min .. " min " .. date.sec .. " seconds"
 end
 
 local function LogsFunct(Color, Description, Webhook)
@@ -17,12 +16,17 @@ local function LogsFunct(Color, Description, Webhook)
 	            ["title"] = iLogs.ServerName,
 	            ["description"] = Description,
 		        ["footer"] = {
-	                ["text"] = GetTime(),
+	                ["text"] = getComputerTime(),
 	                ["icon_url"] = iLogs.FooterLogo,
 	            },
 	        }
 	    }
-	PerformHttpRequest(Webhook, function() end, 'POST', json.encode({username = nil, embeds = Content}), { ['Content-Type'] = 'application/json' })
+	PerformHttpRequest(Webhook, function() end, 'POST', json.encode({
+			username = "",
+			embeds = Content
+		}), {
+	['Content-Type'] = 'application/json'
+	})
 end
 
 RegisterServerEvent("iLogs:events")
